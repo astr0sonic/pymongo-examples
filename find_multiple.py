@@ -12,3 +12,5 @@ cursor = accounts_collection.find(documents_to_find)
 
 for account in cursor:
     pprint(account)
+
+client.close()

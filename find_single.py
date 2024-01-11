@@ -15,3 +15,5 @@ document_to_find = {
 account = accounts_collection.find_one(document_to_find)
 
 pprint(account)
+
+client.close()
