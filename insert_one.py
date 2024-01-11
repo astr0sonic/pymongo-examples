@@ -1,11 +1,11 @@
-from uuid import uuid4
+from uuid import UUID
 
 from connection import client
 
 accounts_collection = client.bank.accounts
 
 new_account = {
-    "account_id": uuid4(),
+    "account_id": UUID("3e673226-0ed0-464f-ac8f-fade4af66806"),
     "balance": 1000,
 }
 
