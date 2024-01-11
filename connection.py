@@ -11,6 +11,7 @@ client = MongoClient(MONGODB_URI)
 
 try:
     ok = client.admin.command("ping")
-    print(ok)
 except PyMongoError as e:
     print("Cannot connect to db:", e)
+
+# client.close()
