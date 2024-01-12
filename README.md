@@ -1,4 +1,4 @@
-# MongoDB usage examples using Python
+# MongoDB usage examples using PyMongo
 
 Based on official courses:
 
