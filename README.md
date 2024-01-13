@@ -15,6 +15,6 @@ Create the virtual environment:
 
 Start script:
 
-```python
+```bash
 python script_name.py
 ```
